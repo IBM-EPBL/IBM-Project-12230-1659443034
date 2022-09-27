@@ -1,0 +1,228 @@
+<html>
+    <head>
+        <title>My Resume</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+        
+       <style>
+            body{
+                margin: 0px;
+                background-color: rgb(210, 201, 201);
+            }
+            #content{
+                display: block;
+            }
+            #content1{
+                margin: 60px;
+                color: rgb(74, 69, 69);
+            }
+            ul,#content2{
+                list-style-type: none;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: x-large;
+        
+            }
+            li{
+                display: inline;
+                padding: 10px;
+            }
+            #nm{
+                float: left;
+            }
+            #sm-logo{
+                float: right;
+            }
+            i{
+                color: rgb(74, 69, 69);
+            }
+            #content2{
+                margin-right: 60px;
+                margin-left: 60px;
+                margin-top: 60px;
+                padding: 45px;
+                padding-bottom: 0px;
+                background-color: blue;
+                color:aliceblue;
+                font-size: x-large;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                display: flex;
+            }
+          
+            #content3{
+                margin-right: 60px;
+                margin-left: 60px;
+                padding: 10px;
+                background-color: white;
+                height: 100%;
+                font-size: x-large;
+            }
+            #btn1{
+                background-color: whitesmoke;
+                color: rgb(63, 53, 53);
+                border-radius: 25px;
+                border-style: none;
+                padding: 10px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            #btn2{
+                background-color: rgb(46, 212, 46);
+                color:aliceblue;
+                border-radius: 25px;
+                border-style: none;
+                padding: 10px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            img{
+                float: left;
+                width: 100%;
+                height: 100%;
+            }
+            #cnt21{
+                padding: 5px;
+                background-color: aliceblue;
+                width: 12%;
+                
+            }
+            #cnt22{
+                padding-left: 120px;
+            }
+            #cnt31{
+                float:left;
+                width: 55%;
+                padding: 2%;
+                font-family: Sitka Subheading Semibold;
+                color: rgb(72, 72, 72);
+            }
+            #cnt32{
+                float: left;
+                width: 6%;
+                padding: 2%;
+                font-family: Sitka Subheading Semibold;
+                color: rgb(72, 72, 72);
+            }
+            #cnt33{
+                float: left;
+                width: 27%;
+                padding: 2%;
+                font-family: Sitka Subheading Semibold;
+                color: rgb(72, 72, 72);
+            }
+           #cnt34{
+               margin: 30px;
+           }
+            .progress{
+                float: left;
+                width: 50%;
+            } .progress1{
+                float: left;
+                width: 50%;
+            }
+            h3{
+                color: black;
+            }
+            
+            .progress-value {
+                border-radius: 5px;
+                background: rgb(4, 0, 255);
+                height: 30px;
+                width: 0;
+                border-color: black;
+            }
+            .progress-value1 {
+                border-radius: 5px;
+                background: rgb(0, 255, 98);
+                height: 30px;
+                width: 0;
+            }
+            #progress-value1{
+                animation: load1 3s normal forwards;
+            }
+            #progress-value2{
+                animation: load2 3s normal forwards;
+            }
+            #progress-value3{
+                animation: load3 3s normal forwards;
+            }
+            
+            @keyframes load1 {
+                0% { width: 0; }
+                100% { width: 90%; }
+            }
+            @keyframes load2 {
+                0% { width: 0; }
+                100% { width: 70%; }
+            }
+            @keyframes load3 {
+                0% { width: 0; }
+                100% { width: 60%; }
+            }
+        
+        </style>
+
+    </head>
+    <body id="content">
+        <div id="content1">
+            <ul><b>
+                <!-- Name and Social Media links -->
+                <li id="nm">Mathan Kumar</li>
+                <li id="sm-logo"><a href="https://www.instagram.com/mr.happily_boy/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li id="sm-logo"><a href="https://www.youtube.com/channel/UCBcl3YsyI8P_kdwFOk15hLg"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+	        	<li id="sm-logo"><a href="mailto:arunpradeepvn@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+	        	<li id="sm-logo"><a href="https://wa.me/6369140376"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li></b>
+	        </ul>
+        </div><br>
+        <div id="content2">
+            <!-- My Image -->
+            <div id="cnt21">
+                <img src="D:\Others\Online apply\Arun.jpg" alt="My Image">
+            </div>
+            <!-- Name, Designation and two buttons -->
+            <div id="cnt22">
+                <b>
+                    Mathan Kumar<br><br>
+                    Student<br><br>
+                    <button id="btn1" onclick="window.print();return false;" /><b>Download CV</b></button>
+                    <button id="btn2"><b><a style="text-decoration: none;color: white;" href="mailto:19cs027@syedengg.co.in">Hire Me</a></b></button>
+                </b>
+            </div>
+        </div>
+        <!-- About me -->
+        <div id="content3">
+            <div id="cnt31">
+                <b><h3>About Me</h3></b>
+                <p>Hello!, I'm Mathan Kumar. I am doing my engineering at Syed Ammal Engineering College, Ramanathapuram. I have much interest in programming and also web designing.</p>
+            </div>
+         
+            <div id="cnt32">
+                <br><br>Age<br>Email<br>Phone<br>Address<br>
+            </div>
+            <div id="cnt33">
+                <br><br>21<br>19cs027@syedengg.co.in<br>+91 8248561154<br>Tamil Nadu, India <br><br><br>
+            </div>
+            <hr>
+            <!-- Skill Progress Bar -->
+            <div id="cnt34">
+                <b><h3>Professional Skills</h3></b>
+                <div class="progress">
+                    <p>HTML</p>
+                    <div class="progress-value" id="progress-value1"></div>
+                    <p>CSS</p>
+                    <div class="progress-value" id="progress-value2"></div>
+                    <p>JavaScript</p>
+                    <div class="progress-value" id="progress-value3"></div>
+                </div>
+                <div class="progress1">
+                    <p>Adobe Photoshop</p>
+                    <div class="progress-value1" id="progress-value3"></div>
+                    <p>MS Office</p>
+                    <div class="progress-value1" id="progress-value1"></div>
+                    <p>C Programming</p>
+                    <div class="progress-value1" id="progress-value2"></div>
+                </div>
+            </div>            
+        </div>
+        
+    </body>
+</html>
