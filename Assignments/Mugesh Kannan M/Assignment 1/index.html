@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body{
+    background:#add8e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px #0000001a;
+}
+
+.container .left_Side{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(225, 225, 225, 0.601);
+}
+
+.profileText .imgBx{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.profileText .imgBx img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.profileText h2{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.profileText h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.contactInfo{
+    padding-top: 40px;
+    
+}
+
+.title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contactInfo ul{
+    position: relative;
+}
+
+.contactInfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contactInfo ul li span{
+    color: #fff;
+    font-weight: 300;
+}
+
+.contactInfo.education li{
+    margin-bottom: 15px;
+}
+
+.contactInfo.education h5{
+    color: #03a9f4;
+    font-weight: 500;
+}
+
+.contactInfo.education h4:nth-child(2){
+    color: #fff;
+    font-weight: 500;
+}
+
+.contactInfo.education h4{
+    color: #fff;
+    font-weight: 300;
+}
+
+.contactInfo.language .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+}
+
+.contactInfo.language .percent div{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+
+
+
+
+
+
+
+
+
+
+
+.container .right_Side{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+.about{
+    margin-bottom: 50px;
+}
+
+.about:last-child{
+    margin-bottom: 0;
+}
+
+.title2{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+p{
+    color: #333;
+}
+
+.about .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.about .box .year_company{
+    min-width: 150px;
+}
+
+.about .box .year_company h5{
+    text-transform: uppercase;
+    color: #505050;
+    font-weight: 600;
+}
+
+.about .box .text h4{
+    text-transform: uppercase;
+    color: #2a7da2;
+    font-size: 16px;
+}
+
+.skills .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills .box h4{
+    text-transform: uppercase;
+    color: #081921;
+    font-weight: 500;
+}
+
+.skills .box .percent{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #f0f0f0;
+}
+
+.skills .box .percent div{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #03a9f4;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left_Side">
+            <div class="profileText">
+                <div class="imgBx">
+                    <img src="img.jpg" width="100%" alt="">
+                </div>
+                <h2>Mugesh Kannan<br><span>App Developer</span></h2>
+            </div>
+            <div class="contactInfo">
+                <h3 class="title">Contact Info</h3>
+                    <ul>
+                        <li>
+                            <span class="icon"></span>
+                            <span class="text">+91 7418937416</span>
+                        </li>
+                        <li>
+                            <span class="icon"></span>
+                            <span class="text">mkannan2104@gmail.com</span>
+                        </li>
+                        <li>
+                            <span class="icon"></span>
+                            <span class="text">www.mywebsite.com</span>
+                        </li>
+                        <li>
+                            <span class="icon"></span>
+                            <span class="text">Ramanathapuram , Tamilnadu </span>
+                        </li>
+                    </ul>
+                
+            </div>
+
+
+            <div class="contactInfo education">
+                <h3 class="title">Education Info</h3>
+                    <ul>
+                        <li>
+                            <h5>2016-2017</h5>
+                            <h4>SSLC - 78.6%</h4>
+                            <h4>syed ammal high sec school</h4>
+                            
+                        </li>
+                        <li>
+                            <h5>2018-2019</h5>
+                            <h4>HSE - 66.5%</h4>
+                            <h4>A.V.M.S matric high sec school</h4>
+                            
+                        </li>
+                        <li>
+                            <h5>2019-2023</h5>
+                            <h4>B.E - CSE </h4>
+                            <h4>syed ammal engineering college</h4>
+                            
+                        </li>
+                    </ul>
+            </div>
+
+            <div class="contactInfo language">
+                <h3 class="title">Language</h3>
+                <ul>
+                    <li>
+                        <span class="text">Tamil</span>
+                        <span class="percent">
+                            <div style="width:100%"></div>
+                        </span>
+                        
+                    </li>
+                    <li>
+                        <span class="text">English</span>
+                        <span class="percent">
+                            <div style="width:70%"></div>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="right_Side">
+
+            <div class="about">
+                <h2 class="title2">Profile</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisic
+                    ing elit. Molestiae officiis deleniti veritatis
+                    , ipsum voluptatum nemo nobis ratione perferend
+                    is autem unde velit consequuntur rerum minima v
+                    oluptate quos repellendus quis ullam, natus, as
+                    pernatur necessitatibus deserunt di<br><br> Vit
+                    ae ipsam aperiam, a id atque mollitia voluptatu
+                    m iste porro omnis minima, doloribus esse susci
+                    pit earum consequuntur possimus dolorum maxime!
+                </p>
+            </div>
+
+            <div class="about">
+                <h2 class="title2">Project</h2>
+                <div class="box">
+                    <div class="year_company">
+                        <h5>Pre-final Year</h5>
+                        <h5>Miniproject</h5>
+                    </div>
+                    <div class="text">
+                        <h4>D- health card system</h4>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur
+                            adipisicing elit. Totam explicabo qui re
+                            cusandae illo sed. Consequuntur temporibus
+                            ,voluptate, omni Lorem ipsum dolor sit am
+                            et consectetur adipisicing elit. Quo ipsam
+                        </p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="year_company">
+                        <h5>Final Year</h5>
+                        <h5>Miniproject</h5>
+                    </div>
+                    <div class="text">
+                        <h4>Inventory Management System For Retailers</h4>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur
+                            adipisicing elit. Totam explicabo qui re
+                            cusandae illo sed. Consequuntur temporibus
+                            ,voluptate, omni Lorem ipsum dolor sit am
+                            et consectetur adipisicing elit. Quo ipsam
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="about skills">
+                <h2 class="title2">Professional Skills</h2>
+                <div class="box">
+                    <h4>HTML</h4>
+                    <div class="percent">
+                        <div style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>CSS</h4>
+                    <div class="percent">
+                        <div style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>JS</h4>
+                    <div class="percent">
+                        <div style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>PHP</h4>
+                    <div class="percent">
+                        <div style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>MySQL</h4>
+                    <div class="percent">
+                        <div style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Flutter</h4>
+                    <div class="percent">
+                        <div style="width: 72%;"></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+</body>
+</html>
